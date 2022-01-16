@@ -1,0 +1,55 @@
+.home__content {
+	display: flex;
+}
+
+.pageCount {
+	color: gray;
+	border: 1px solid gray;
+	border-radius: 50%;
+	padding: 5px 10px;
+	cursor: pointer;
+	transition: all 0.2s ease-in-out;
+}
+
+.pageCount:not(:last-child) {
+	margin-right: 10px;
+}
+
+.pageCount:hover {
+	transform: scale(1.2);
+	transition: all 0.2s ease-in-out;
+	color: rgb(26, 25, 25);
+	border-color: rgb(26, 25, 25);
+}
+
+.form {
+	margin-bottom: 40px;
+}
+
+.input {
+	padding: 10px;
+	outline: none;
+	border: 1px solid rgba(139, 139, 139, 0.3);
+	border-radius: 10px;
+	margin-right: 20px;
+}
+
+.button {
+	cursor: pointer;
+	width: 100px;
+	padding: 10px;
+	outline: none;
+	border: 1px solid rgba(139, 139, 139, 0.3);
+	border-radius: 10px;
+	margin-right: 20px;
+	background-color: #fff;
+	transition: 0.2s ease-in-out;
+	color: rgba(139, 139, 139, 1);
+}
+
+.button:hover {
+	transform: scale(1.1);
+	transition: 0.2s ease-in-out;
+	color: rgb(49, 49, 49);
+	border-color: rgb(49, 49, 49);
+}

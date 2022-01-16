@@ -1,0 +1,14 @@
+.header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border-bottom: 1px solid rgba(139, 139, 139, 0.3);
+}
+
+.search {
+	border: 1px solid rgba(139, 139, 139, 0.3);
+	border-radius: 10px;
+	padding: 10px 5px;
+	width: 400px;
+	outline: none;
+}
